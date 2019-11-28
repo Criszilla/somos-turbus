@@ -1,0 +1,32 @@
+$primary-font:  sans-serif;
+//$display-font: 'Raleway', sans-serif;
+$font-regular: 400;
+$font-bold: 500;
+$font-extra-bold: 900;
+
+// Colores
+$palette: (
+    ultra-ligth-grey: #F5F6FA,
+    ligth-grey: #DCDDE1,
+    medium-grey: #697789,
+    brand-grey: #2F3640,
+    dark-grey: #1F232A,
+    brand-primary-color: #2d9fe4,
+    brand-second-color: #031721,
+    brand-third-color: #021118,
+    brand-green: #41b451
+);
+$ligth-grey: map-get($palette,ligth-grey);
+$ultra-ligth-grey: map-get($palette,ultra-ligth-grey);
+$medium-grey: map-get($palette,medium-grey);
+$brand-grey: map-get($palette,brand-grey);
+$dark-grey: map-get($palette,dark-grey);
+$brand-primary-color: map-get($palette,brand-primary-color);
+$brand-second-color: map-get($palette,brand-second-color);
+$brand-third-color: map-get($palette,brand-third-color);
+$brand-green: map-get($palette,brand-green);
+$white:white;
+
+//Gradientes
+// $gradient-yellow-green: linear-gradient(to right, $brand-second-color, $brand-third-color);
+// $gradient-red-yellow: linear-gradient(to right, $brand-primary-color, $brand-second-color);
